@@ -4,7 +4,7 @@ LinguaLift is a smart tongue-strengthening mouthpiece and mobile application des
 
 ## Features
 
-- **Personalized Exercise Routines**: AI-powered exercise recommendations based on user performance data
+- **Personalized Exercise Routines**: ML-powered exercise recommendations based on user performance data
 - **Real-time Feedback**: Visual pressure meter to guide proper tongue technique
 - **Progress Tracking**: Comprehensive charts and statistics to monitor improvements
 - **Therapist Integration**: Connect with healthcare professionals for remote monitoring
