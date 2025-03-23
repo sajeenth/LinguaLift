@@ -1,16 +1,80 @@
-# lingua_lift
+# LinguaLift
 
-A new Flutter project.
+LinguaLift is a smart tongue-strengthening mouthpiece and mobile application designed specifically for ALS therapy. The app works with a specialized sensor device to track, measure, and improve tongue strength and movement through guided exercises.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Personalized Exercise Routines**: AI-powered exercise recommendations based on user performance data
+- **Real-time Feedback**: Visual pressure meter to guide proper tongue technique
+- **Progress Tracking**: Comprehensive charts and statistics to monitor improvements
+- **Therapist Integration**: Connect with healthcare professionals for remote monitoring
+- **Exercise Library**: Various tongue-strengthening exercises for different difficulty levels
+- **Reminders & Scheduling**: Smart notifications to maintain consistent therapy
 
-A few resources to get you started if this is your first Flutter project:
+## Technology
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Built with Flutter for cross-platform compatibility
+- Implemented machine learning model that analyzes pressure patterns, consistency, and fatigue indicators
+- Dynamic exercise difficulty adjustment based on previous session performance metrics
+- Bluetooth connectivity for real-time data from the mouthpiece sensor
+- Secure HIPAA-compliant data storage and analysis
+- Backend API integration for therapist monitoring portal
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Machine Learning Implementation
+
+The core of LinguaLift is our proprietary machine learning algorithm that:
+- Processes raw sensor data to extract meaningful pressure patterns
+- Identifies early signs of fatigue during exercises
+- Personalizes exercise intensity based on user capability
+- Automatically adjusts difficulty levels based on performance trends
+- Predicts optimal exercise types for maximum therapeutic benefit
+
+## Installation
+
+### Prerequisites
+- Flutter SDK (2.0.0 or higher)
+- Dart SDK (2.12.0 or higher)
+- iOS 12.0+ / Android 5.0+
+
+### Setup
+1. Clone the repository:
+   ```
+   git clone https://github.com/sajeenth/LinguaLift.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd LinguaLift
+   ```
+3. Install dependencies:
+   ```
+   flutter pub get
+   ```
+4. Run the app:
+   ```
+   flutter run
+   ```
+
+## App Screens
+
+- **Home Screen**: Overview of progress, streak, and AI-recommended exercises
+- **Exercise Screen**: Real-time feedback during tongue exercises with ML-driven guidance
+- **Progress Screen**: Detailed charts showing strength and endurance improvements with predictive trends
+- **Profile Screen**: User information and secure connection with therapist
+- **Settings Screen**: Customize notifications, device connections, and app preferences
+
+## Hardware Integration
+
+The app works with the LinguaLift mouthpiece device which:
+- Anchors securely to the upper teeth like a partial retainer
+- Contains a high-precision pressure sensor to detect tongue movement and force
+- Connects wirelessly to the app via Bluetooth
+- Transmits 100+ data points per second for real-time analysis
+- Is made from biocompatible, food-safe materials
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+For questions or support, please contact [your-email@example.com](mailto:your-email@example.com)
