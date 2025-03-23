@@ -74,7 +74,3 @@ The app works with the LinguaLift mouthpiece device which:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-For questions or support, please contact [your-email@example.com](mailto:your-email@example.com)
