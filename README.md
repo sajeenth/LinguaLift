@@ -1,5 +1,9 @@
 # LinguaLift
 
+
+https://github.com/user-attachments/assets/a8baf1b5-66f5-4f75-96cc-ad33b859a5f5
+
+
 LinguaLift is a smart tongue-strengthening mouthpiece and mobile application designed specifically for ALS therapy. The app works with a specialized sensor device to track, measure, and improve tongue strength and movement through guided exercises.
 
 ## Features
